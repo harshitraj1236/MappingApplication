@@ -11,7 +11,7 @@ import SwiftUI
 struct MappingApplicationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LiveTrackingView()
         }
     }
 }
