@@ -1,6 +1,6 @@
 # Live Emergency Resource Tracker (iOS Prototype)
 
-A high-performance, native iOS frontend prototype architected to track live emergency medical assets (such as Rh-Negative blood carriers) dynamically during crisis scenarios. Built strictly to demonstrate hardware-level geolocation integration, asynchronous data streaming, and scalable state management without UI lag.
+A high-performance, native iOS frontend prototype architected to track live emergency medical assets (such as Rh-Negative blood carriers) dynamically during crisis scenarios. Built strictly to demonstrate hardware-level geolocation integration, asynchronous data streaming, and scalable state management without any UI lag.
 
 ## Tech Stack & Native Frameworks
 - **Language:** Swift 5.10
