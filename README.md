@@ -10,7 +10,7 @@ A high-performance, native iOS frontend prototype architected to track live emer
 - **Reactive Streams:** Combine Framework
 
 ## Architecture Design (Strict MVVM)
-The project is built using a highly decoupled Model-View-ViewModel (MVVM) pattern combined with an independent Service Layer to ensure zero main-thread blocking during continuous tracking updates:
+The project is built using a highly Model-View-ViewModel (MVVM) pattern combined with an independent Service Layer to ensure zero main-thread blocking during continuous tracking updates:
 
 1. **Models (`DonorVehicle.swift`):** Pure, lightweight Swift structs conforming to `Codable` and `Identifiable` for instant JSON mapping.
 2. **Services (`LocationManager.swift` & `NetworkService.swift`):** Dedicated hardware listeners and mock API endpoints. Houses the background thread processing logic.
